@@ -104,7 +104,7 @@ public class PostRequests {
     @Test
     void usingExternalJsonFile() throws Exception
     {
-        File file = new File("TestData/body.json");
+        File file = new File("TestData/body.json ");
         FileReader fr = new FileReader(file);
         JSONTokener jt = new JSONTokener(fr);
         JSONObject data = new JSONObject(jt);
